@@ -1,0 +1,5 @@
+(DEFUN C:Perfiles ()
+(COMMAND "_VBALOAD" "C:\\Archivos de programa\\Autodesk Map 6\\Support\\perfiles23.dvb")
+(COMMAND "_-VBARUN" "Module1.conectaExcel")
+(COMMAND "_VBAUNLOAD" "perfiles23.dvb")
+)
